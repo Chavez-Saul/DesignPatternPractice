@@ -9,7 +9,11 @@ package PrototypeDesign;
  *
  * @author Saul
  */
-
+/*
+    Allows Person to be clone() to 
+    clone other class.
+    Design Pattern: Prototype
+*/
 interface Person {
     Person clone();
 }
